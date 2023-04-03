@@ -1,0 +1,39 @@
+.services {
+  width: 100%;
+  max-width: 800px;
+  margin: 3rem 0;
+  padding: 3rem 0;
+  height: 100%;
+  margin: auto;
+}
+
+.services h4 {
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+.services p {
+  padding: 10px 20px;
+}
+
+.services .no-margin {
+  padding: 0;
+}
+
+.services .margin-top {
+  margin-top: 40px;
+}
+
+.btn {
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 840px) {
+  .btn {
+    font-size: 14px;
+  }
+  .services {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

@@ -1,0 +1,53 @@
+#heroImg {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.hero {
+  height: 100vh;
+  width: 100%;
+  object-fit: contain;
+}
+
+.hero .content {
+  text-align: center;
+  position: absolute;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  top: 40vh;
+}
+
+.hero .content h1 {
+  font-size: 52px;
+  color: #fff;
+}
+
+.hero p {
+  font-size: 28px;
+  font-weight: 200;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+  color: #fff;
+}
+
+.hero .btn {
+  margin: 1rem 0.2rem;
+}
+
+@media screen and (max-width: 640px) {
+  .hero .content h1 {
+    font-size: 2rem;
+  }
+
+  .content p {
+    font-size: 1.3rem;
+    margin-bottom: 1.6rem;
+  }
+  .hero .btn {
+    font-size: 15px;
+  }
+}
